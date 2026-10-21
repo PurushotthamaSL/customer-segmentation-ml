@@ -1,0 +1,215 @@
+{
+  "n_clusters": 5,
+  "features": [
+    "Annual Income (k$)",
+    "Spending Score (1-100)",
+    "Age"
+  ],
+  "use_scaler": true,
+  "random_state": 42,
+  "n_init": 10,
+  "inertia": 168.25,
+  "silhouette_score": 0.4166,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "label": "Budget-Conscious Savers",
+      "count": 20,
+      "percentage": 10.0,
+      "feature_means": {
+        "Annual Income (k$)": 26.75,
+        "Spending Score (1-100)": 18.35,
+        "Age": 46.25
+      },
+      "feature_medians": {
+        "Annual Income (k$)": 26.5,
+        "Spending Score (1-100)": 14.5,
+        "Age": 47.0
+      },
+      "feature_mins": {
+        "Annual Income (k$)": 16.0,
+        "Spending Score (1-100)": 3.0,
+        "Age": 20.0
+      },
+      "feature_maxs": {
+        "Annual Income (k$)": 39.0,
+        "Spending Score (1-100)": 36.0,
+        "Age": 67.0
+      },
+      "centroid_coordinates": {
+        "Annual Income (k$)": 26.75,
+        "Spending Score (1-100)": 18.35,
+        "Age": 46.25
+      },
+      "color": "#8B5CF6",
+      "characteristics": [
+        "Income: -55.8% vs global average ($26.8k)",
+        "Spending Score: -63.4% vs average (18.4/100)",
+        "Average Age: 46.2 years (Global avg: 38.9)"
+      ],
+      "marketing_strategy": "Highlight value-first discounts, essentials coupons, seasonal clearance deals, and clear price-to-utility promotions."
+    },
+    {
+      "cluster_id": 1,
+      "label": "Impulsive Spenders / Youth Trendsetters",
+      "count": 54,
+      "percentage": 27.0,
+      "feature_means": {
+        "Annual Income (k$)": 41.09,
+        "Spending Score (1-100)": 62.24,
+        "Age": 25.19
+      },
+      "feature_medians": {
+        "Annual Income (k$)": 40.0,
+        "Spending Score (1-100)": 58.0,
+        "Age": 24.0
+      },
+      "feature_mins": {
+        "Annual Income (k$)": 15.0,
+        "Spending Score (1-100)": 39.0,
+        "Age": 18.0
+      },
+      "feature_maxs": {
+        "Annual Income (k$)": 67.0,
+        "Spending Score (1-100)": 99.0,
+        "Age": 38.0
+      },
+      "centroid_coordinates": {
+        "Annual Income (k$)": 41.09,
+        "Spending Score (1-100)": 62.24,
+        "Age": 25.19
+      },
+      "color": "#06B6D4",
+      "characteristics": [
+        "Income: -32.1% vs global average ($41.1k)",
+        "Spending Score: +24.0% vs average (62.2/100)",
+        "Average Age: 25.2 years (Global avg: 38.9)"
+      ],
+      "marketing_strategy": "Offer flexible BNPL (Buy Now Pay Later) payment solutions, trendy youth-oriented micro-promotions, and referral rewards to maximize repeat engagement without inducing budget fatigue."
+    },
+    {
+      "cluster_id": 2,
+      "label": "High-Value Champions",
+      "count": 40,
+      "percentage": 20.0,
+      "feature_means": {
+        "Annual Income (k$)": 86.1,
+        "Spending Score (1-100)": 81.53,
+        "Age": 32.88
+      },
+      "feature_medians": {
+        "Annual Income (k$)": 78.5,
+        "Spending Score (1-100)": 83.0,
+        "Age": 32.0
+      },
+      "feature_mins": {
+        "Annual Income (k$)": 69.0,
+        "Spending Score (1-100)": 58.0,
+        "Age": 27.0
+      },
+      "feature_maxs": {
+        "Annual Income (k$)": 137.0,
+        "Spending Score (1-100)": 97.0,
+        "Age": 40.0
+      },
+      "centroid_coordinates": {
+        "Annual Income (k$)": 86.1,
+        "Spending Score (1-100)": 81.53,
+        "Age": 32.88
+      },
+      "color": "#10B981",
+      "characteristics": [
+        "Income: +42.2% vs global average ($86.1k)",
+        "Spending Score: +62.4% vs average (81.5/100)",
+        "Average Age: 32.9 years (Global avg: 38.9)"
+      ],
+      "marketing_strategy": "Provide VIP loyalty privileges, exclusive early access to premium collections, concierge services, and invitation-only brand experiences."
+    },
+    {
+      "cluster_id": 3,
+      "label": "Affluent Opportunity / Savers",
+      "count": 39,
+      "percentage": 19.5,
+      "feature_means": {
+        "Annual Income (k$)": 86.1,
+        "Spending Score (1-100)": 19.36,
+        "Age": 39.87
+      },
+      "feature_medians": {
+        "Annual Income (k$)": 78.0,
+        "Spending Score (1-100)": 17.0,
+        "Age": 41.0
+      },
+      "feature_mins": {
+        "Annual Income (k$)": 64.0,
+        "Spending Score (1-100)": 1.0,
+        "Age": 19.0
+      },
+      "feature_maxs": {
+        "Annual Income (k$)": 137.0,
+        "Spending Score (1-100)": 42.0,
+        "Age": 59.0
+      },
+      "centroid_coordinates": {
+        "Annual Income (k$)": 86.1,
+        "Spending Score (1-100)": 19.36,
+        "Age": 39.87
+      },
+      "color": "#F59E0B",
+      "characteristics": [
+        "Income: +42.2% vs global average ($86.1k)",
+        "Spending Score: -61.4% vs average (19.4/100)",
+        "Average Age: 39.9 years (Global avg: 38.9)"
+      ],
+      "marketing_strategy": "Deploy targeted engagement campaigns, high-end product showcases, personalized value propositions, and luxury experience bundles to activate their high purchasing potential."
+    },
+    {
+      "cluster_id": 4,
+      "label": "Mainstream Regulars",
+      "count": 47,
+      "percentage": 23.5,
+      "feature_means": {
+        "Annual Income (k$)": 54.38,
+        "Spending Score (1-100)": 48.85,
+        "Age": 55.64
+      },
+      "feature_medians": {
+        "Annual Income (k$)": 54.0,
+        "Spending Score (1-100)": 48.0,
+        "Age": 54.0
+      },
+      "feature_mins": {
+        "Annual Income (k$)": 38.0,
+        "Spending Score (1-100)": 35.0,
+        "Age": 40.0
+      },
+      "feature_maxs": {
+        "Annual Income (k$)": 79.0,
+        "Spending Score (1-100)": 60.0,
+        "Age": 70.0
+      },
+      "centroid_coordinates": {
+        "Annual Income (k$)": 54.38,
+        "Spending Score (1-100)": 48.85,
+        "Age": 55.64
+      },
+      "color": "#EC4899",
+      "characteristics": [
+        "Income: -10.2% vs global average ($54.4k)",
+        "Spending Score: -2.7% vs average (48.9/100)",
+        "Average Age: 55.6 years (Global avg: 38.9)"
+      ],
+      "marketing_strategy": "Maintain steady relationship with tiered loyalty points, cross-category recommendations, and standard seasonal marketing campaigns."
+    }
+  ],
+  "global_averages": {
+    "Annual Income (k$)": 60.56,
+    "Spending Score (1-100)": 50.2,
+    "Age": 38.85
+  },
+  "trained_at": "2026-10-13T19:48:02.767450",
+  "total_customers": 200,
+  "custom_labels": {
+    "0": "Custom VIP Tier"
+  }
+}
